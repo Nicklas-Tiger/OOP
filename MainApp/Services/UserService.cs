@@ -11,7 +11,7 @@ public class UserService
     {
         try
         {
-            if (string.IsNullOrEmpty(user.Email))
+            if (string.IsNullOrEmpty(user.Email)) 
             
                 return new ServiceResponse { Success = false, Message = "No e-mail address was provided"};
             
