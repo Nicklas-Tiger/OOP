@@ -8,7 +8,7 @@ public class UserService
 {
     private List<User> _users = [];
     public ServiceResponse CreateUser(User user)
-    {
+    { 
         try
         {
             if (string.IsNullOrEmpty(user.Email)) 
